@@ -1,0 +1,54 @@
+{
+  "name": "passport-http-oauth",
+  "version": "0.1.1",
+  "description": "HTTP OAuth 2-legged (even called 0-legged) authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "http",
+    "oauth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "2-legged",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-http-oauth.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-http-oauth/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport": "~0.1.11"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js test/**/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "_id": "passport-http-oauth@0.1.1",
+  "readme": "ERROR: No README.md file found!",
+  "dist": {
+    "shasum": "3ccada07f550a784517e75b0e2ad0c5c804359ca"
+  },
+  "_from": "passport-http-oauth"
+}
