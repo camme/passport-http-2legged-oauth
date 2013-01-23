@@ -15,15 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http-oauth.git"
+    "url": "git://github.com/Camme/passport-http-2legged-oauth.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-http-oauth/issues"
+    "url": "https://github.com/Camme/passport-http-2legged-oauth/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Camilo Tapia",
+    "email": "camilo.tapia@gmail.com",
+    "url": "http://www.onezerozeroone.com/"
   },
   "licenses": [
     {
@@ -35,20 +35,5 @@
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport": "~0.1.11"
-  },
-  "devDependencies": {
-    "vows": "0.6.x"
-  },
-  "scripts": {
-    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js test/**/*-test.js"
-  },
-  "engines": {
-    "node": ">= 0.4.0"
-  },
-  "_id": "passport-http-oauth@0.1.1",
-  "readme": "ERROR: No README.md file found!",
-  "dist": {
-    "shasum": "3ccada07f550a784517e75b0e2ad0c5c804359ca"
-  },
-  "_from": "passport-http-oauth"
+  }
 }
