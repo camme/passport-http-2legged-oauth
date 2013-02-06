@@ -1,6 +1,6 @@
 {
   "name": "passport-http-2legged-oauth",
-  "version": "0.1.1",
+  "version": "0.1.8",
   "description": "HTTP OAuth 2-legged (even called 0-legged) authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -35,5 +35,11 @@
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport": "~0.1.11"
-  }
+  },
+  "readme": "# Oauth 2-legged strategy for passport\n\nThis oauth strategy is used for a 2-legged scenario (even called 0-legged).\nIts a consumer to server authentication where each request is signed as defined in oauth but an empty access_token is used. No user data is exposed, as it is the consumer that has access to the protected resource.\n\nIt works as https://github.com/jaredhanson/passport-http-oauth but skips the access_token verification step and accepts empty access_tokens.\n\nThe cose base is 98% https://github.com/jaredhanson/passport-http-oauth but adapted for the 2-legged scenario. So thanks jaredhanson for all work!.\n\n",
+  "_id": "passport-http-2legged-oauth@0.1.7",
+  "dist": {
+    "shasum": "68847d57b1506a0a6c7ee79c4c6baeea048f3ff8"
+  },
+  "_from": "passport-http-2legged-oauth@~0.1.3"
 }
