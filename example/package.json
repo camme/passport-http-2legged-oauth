@@ -1,0 +1,17 @@
+{
+  "name": "passport-http-2legged-oauth-example",
+  "version": "0.0.1",
+  "description": "Example for 2legged oauth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "passport": "~0.1.18",
+    "express": "~3.4.7",
+    "passport-http-2legged-oauth": "~0.1.9",
+    "oauth": "~0.9.11"
+  }
+}
