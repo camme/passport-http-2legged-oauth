@@ -1,6 +1,6 @@
 {
   "name": "passport-http-2legged-oauth",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "HTTP OAuth 2-legged (even called 0-legged) authentication strategy for Passport.",
   "keywords": [
     "passport",
