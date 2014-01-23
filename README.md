@@ -144,4 +144,5 @@ request.get("http://localhost:1337/private", null, null, function(err, data, res
 ```
 
 If everything goes well, you should get a success message!
+You can download the complete sourcecode for this example in the /example folder
 
